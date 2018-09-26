@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AADD9672149CED7004FCAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD9662149CED7004FCAF0 /* AppDelegate.swift */; };
+		2AADD96C2149CED7004FCAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AADD96A2149CED7004FCAF0 /* Main.storyboard */; };
+		2AADD96E2149CED9004FCAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AADD96D2149CED9004FCAF0 /* Assets.xcassets */; };
+		2AADD9712149CED9004FCAF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AADD96F2149CED9004FCAF0 /* LaunchScreen.storyboard */; };
+		2AADD9792149CFB4004FCAF0 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD9782149CFB4004FCAF0 /* RoomListViewController.swift */; };
+		2AADD97B2149CFBD004FCAF0 /* FurnitureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD97A2149CFBD004FCAF0 /* FurnitureListViewController.swift */; };
+		2AADD97D2149CFE8004FCAF0 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD97C2149CFE8004FCAF0 /* Room.swift */; };
+		2AADD97F2149D008004FCAF0 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD97E2149D008004FCAF0 /* Furniture.swift */; };
+		2AADD981214A49DD004FCAF0 /* FurnitureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AADD980214A49DD004FCAF0 /* FurnitureDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AADD9632149CED7004FCAF0 /* FurniturePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurniturePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AADD9662149CED7004FCAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AADD96B2149CED7004FCAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AADD96D2149CED9004FCAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AADD9702149CED9004FCAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AADD9722149CED9004FCAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AADD9782149CFB4004FCAF0 /* RoomListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
+		2AADD97A2149CFBD004FCAF0 /* FurnitureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureListViewController.swift; sourceTree = "<group>"; };
+		2AADD97C2149CFE8004FCAF0 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		2AADD97E2149D008004FCAF0 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		2AADD980214A49DD004FCAF0 /* FurnitureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AADD9602149CED7004FCAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AADD95A2149CED7004FCAF0 = {
+			isa = PBXGroup;
+			children = (
+				2AADD9652149CED7004FCAF0 /* FurniturePicker */,
+				2AADD9642149CED7004FCAF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AADD9642149CED7004FCAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AADD9632149CED7004FCAF0 /* FurniturePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AADD9652149CED7004FCAF0 /* FurniturePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2AADD9662149CED7004FCAF0 /* AppDelegate.swift */,
+				2AADD97C2149CFE8004FCAF0 /* Room.swift */,
+				2AADD97E2149D008004FCAF0 /* Furniture.swift */,
+				2AADD9782149CFB4004FCAF0 /* RoomListViewController.swift */,
+				2AADD97A2149CFBD004FCAF0 /* FurnitureListViewController.swift */,
+				2AADD980214A49DD004FCAF0 /* FurnitureDetailViewController.swift */,
+				2AADD96A2149CED7004FCAF0 /* Main.storyboard */,
+				2AADD96D2149CED9004FCAF0 /* Assets.xcassets */,
+				2AADD96F2149CED9004FCAF0 /* LaunchScreen.storyboard */,
+				2AADD9722149CED9004FCAF0 /* Info.plist */,
+			);
+			path = FurniturePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AADD9622149CED7004FCAF0 /* FurniturePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AADD9752149CED9004FCAF0 /* Build configuration list for PBXNativeTarget "FurniturePicker" */;
+			buildPhases = (
+				2AADD95F2149CED7004FCAF0 /* Sources */,
+				2AADD9602149CED7004FCAF0 /* Frameworks */,
+				2AADD9612149CED7004FCAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurniturePicker;
+			productName = FurniturePicker;
+			productReference = 2AADD9632149CED7004FCAF0 /* FurniturePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AADD95B2149CED7004FCAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "John Haney (Maryville)";
+				TargetAttributes = {
+					2AADD9622149CED7004FCAF0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 2AADD95E2149CED7004FCAF0 /* Build configuration list for PBXProject "FurniturePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AADD95A2149CED7004FCAF0;
+			productRefGroup = 2AADD9642149CED7004FCAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AADD9622149CED7004FCAF0 /* FurniturePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AADD9612149CED7004FCAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AADD9712149CED9004FCAF0 /* LaunchScreen.storyboard in Resources */,
+				2AADD96E2149CED9004FCAF0 /* Assets.xcassets in Resources */,
+				2AADD96C2149CED7004FCAF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AADD95F2149CED7004FCAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AADD9792149CFB4004FCAF0 /* RoomListViewController.swift in Sources */,
+				2AADD97B2149CFBD004FCAF0 /* FurnitureListViewController.swift in Sources */,
+				2AADD97F2149D008004FCAF0 /* Furniture.swift in Sources */,
+				2AADD97D2149CFE8004FCAF0 /* Room.swift in Sources */,
+				2AADD981214A49DD004FCAF0 /* FurnitureDetailViewController.swift in Sources */,
+				2AADD9672149CED7004FCAF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AADD96A2149CED7004FCAF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AADD96B2149CED7004FCAF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AADD96F2149CED9004FCAF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AADD9702149CED9004FCAF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AADD9732149CED9004FCAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AADD9742149CED9004FCAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AADD9762149CED9004FCAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurniturePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.isys230.FurniturePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AADD9772149CED9004FCAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurniturePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.isys230.FurniturePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AADD95E2149CED7004FCAF0 /* Build configuration list for PBXProject "FurniturePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AADD9732149CED9004FCAF0 /* Debug */,
+				2AADD9742149CED9004FCAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AADD9752149CED9004FCAF0 /* Build configuration list for PBXNativeTarget "FurniturePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AADD9762149CED9004FCAF0 /* Debug */,
+				2AADD9772149CED9004FCAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AADD95B2149CED7004FCAF0 /* Project object */;
+}
