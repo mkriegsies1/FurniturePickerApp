@@ -27,32 +27,42 @@ class FurnitureDetailViewController: UIViewController, FurnitureContaining, UIIm
         
         
         
-       
+        //Creates UIImagePickerController
             let pickImageImagePicker = UIImagePickerController()
             pickImageImagePicker.delegate = self
             pickImageImagePicker.sourceType = .photoLibrary
             
-          
+
         
+        //Creates UIAlertController
+        let cameraButtonPress = UIAlertController(title: "Choose Image Source", message: nil, preferredStyle: .actionSheet)
         
-        let buttonPress = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+       
         
-        let cancelAlert = UIAlertAction(title: "Cancel", style: .cancel) { (UIAlertAction) in
-            
+        //3 options after pressing the button:
+            //Cancel
+        let cancelAlert = UIAlertAction(title: "Cancel", style: .cancel)
+        cameraButtonPress.addAction (cancelAlert)
+        
+            //Photo Library
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            let choosePhotoLibrary = UIAlertAction(title: "Photo Library", style: .default, handler: { ACTION in pickImageImagePicker.sourceType = .photoLibrary
+                self.present(pickImageImagePicker, animated: true, completion: nil)
+                
+            })
+            cameraButtonPress.addAction(choosePhotoLibrary)
         }
         
-        let choosePhotoLibrary = UIAlertAction(title: "Photo Library", style: .default) { (UIAlertAction) in
-        }
+            //Take Photo
+            let chooseTakePhoto = UIAlertAction(title: "Take Photo", style: .default)
+            cameraButtonPress.addAction(chooseTakePhoto)
+    
         
-        let chooseTakePhoto = UIAlertAction(title: "Take Photo", style: .default) { (UIAlertAction) in
-        }
+
+            //presenting the functionality
+            present(cameraButtonPress, animated: true, completion: nil)
+
         
-        buttonPress.addAction(cancelAlert)
-        buttonPress.addAction(choosePhotoLibrary)
-        buttonPress.addAction(chooseTakePhoto)
-        
-            present(buttonPress, animated: true, completion: nil)
-            present(pickImageImagePicker, animated: true, completion: nil)
         
     
 
@@ -68,4 +78,5 @@ class FurnitureDetailViewController: UIViewController, FurnitureContaining, UIIm
         }
         dismiss(animated: true, completion: nil)
     }
-}
+ 
+ }
