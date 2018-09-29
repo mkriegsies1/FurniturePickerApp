@@ -24,6 +24,39 @@ class FurnitureDetailViewController: UIViewController, FurnitureContaining, UIIm
         // Set the delegate to self
         // Set the source type to .photoLibrary to run in Simulator
         // present the image picker
+        
+        
+        
+       
+            let pickImageImagePicker = UIImagePickerController()
+            pickImageImagePicker.delegate = self
+            pickImageImagePicker.sourceType = .photoLibrary
+            
+          
+        
+        
+        let buttonPress = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        
+        let cancelAlert = UIAlertAction(title: "Cancel", style: .cancel) { (UIAlertAction) in
+            
+        }
+        
+        let choosePhotoLibrary = UIAlertAction(title: "Photo Library", style: .default) { (UIAlertAction) in
+        }
+        
+        let chooseTakePhoto = UIAlertAction(title: "Take Photo", style: .default) { (UIAlertAction) in
+        }
+        
+        buttonPress.addAction(cancelAlert)
+        buttonPress.addAction(choosePhotoLibrary)
+        buttonPress.addAction(chooseTakePhoto)
+        
+            present(buttonPress, animated: true, completion: nil)
+            present(pickImageImagePicker, animated: true, completion: nil)
+        
+    
+
+        
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
