@@ -18,12 +18,17 @@ class FurnitureListViewController: UITableViewController, RoomContaining, UIImag
     
     @IBAction func shareButtonPressed(_ sender: Any) {
         guard let indexPath = tableView.indexPathForSelectedRow,
-            let image = room?.furniture[indexPath.row].image
-            else { return }
-        let items = [image]
+            let image = room?.furniture[indexPath.row].image            else { return print("Error...")}
         
+       let items = [image]
+        
+        print(items)
         // TODO: Create a UIActivityViewController here with the items
         // present the activity controller
+        let activityController = UIActivityViewController(activityItems: items, applicationActivities: nil)
+         activityController.popoverPresentationController?.sourceView = sender as? UIView
+        
+            present(activityController, animated: true, completion: nil)
     }
     
     // MARK: - Table view data source
